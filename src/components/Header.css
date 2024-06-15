@@ -1,0 +1,17 @@
+.header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.menu.active{
+    font-weight: 700;
+}

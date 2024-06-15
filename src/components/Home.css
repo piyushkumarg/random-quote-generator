@@ -1,0 +1,35 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.home_change {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5rem;
+  gap: 2rem;
+}
+
+.home_change select {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  min-width: 150px;
+}
+
+.home_change button {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background-color: rgb(7, 153, 7);
+  color: white;
+  border: none;
+  width: 100px;
+}
+
+.home_change button:hover {
+  background-color: rgb(3, 121, 3);
+}
